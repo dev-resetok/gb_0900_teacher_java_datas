@@ -1,0 +1,27 @@
+팀장은 Organization 만들기
+팀장은 people에서 팀원 초대
+팀장은 새로운 레포지토리 생성
+팀장은 settings > Collaborators and teams에서 Add People로 팀원 초대
+팀장은 remote add [공용 레포지토리 이름] [공용 레포지토리 경로]
+팀장은 초기 설정 파일을 로컬에서 제작, add, commit, Organization의 레포지토리로 push
+팀원들에게 Organization의 레포지토리 주소(경로 = 웹 주소) 공유
+팀원들은 공유받은 링크로 접속
+전원 fork 받기 -> 개인 레포지토리로 생성(forked)
+팀원 전체 clone받기
+팀원 별 로컬에서 작업 진행(반드시 개인 branch에서 작업)
+작업 종료 후, add, commit, checkout master
+master 브랜치에 merge 진행
+git remote add origin [개인 레포지토리 경로(forked)]
+git push origin master
+Git-Hub 사이트에서 push한 내용 확인
+페이지 상단의 Pull requests 클릭
+2번 버튼 누르기(Create Pull request 등 녹색버튼)
+메세지 작성(기본 메세지 놔둬도 상관없음)
+완료 버튼 클릭
+팀장님에게 카톡으로 PR 확인부탁드립니다! 보내기
+팀장은 Organization에 있는 레포지토리에서 PR확인하기
+문제 없이 녹색버튼이 활성화되면, Confirm 해주기(작성할 내용은 마음대로)
+팀장이 전체에게 카톡으로 "전원 pull 받아주세요" 보내기
+팀원들은 개인 레포지토리에서 synch fork 누른 뒤 update branch 클릭하여 동기화하기
+작업 브랜치에서 master 브랜치로 이동(반드시 커밋 후에 이동해야한다)
+git pull origin master
